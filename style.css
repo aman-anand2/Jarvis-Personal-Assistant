@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap");
+
+body {
+  background-color: #000;
+  color: #00bcd4;
+  font-family: "Roboto Mono", monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: cyan; 
+  font-size: 36px; 
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Jarvis GIF Styling */
+.jarvis-image {
+  margin-bottom: 10px;
+}
+
+.jarvis-image img {
+  width: 300px; /* Adjust the size as needed */
+  border-radius: 10px;
+}
+
+button.talk {
+  background-color: #00bcd4;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+p.content {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+/* Neon-style button for a dark background */
+#startButton {
+  background: #111 !important;              
+  color: #00f0ff !important;              
+  border: 2px solid #00f0ff !important;    
+  border-radius: 30px !important;          
+  padding: 15px 30px !important;           
+  font-size: 1.2rem !important;            
+  letter-spacing: 1px !important;          
+  cursor: pointer !important;              
+  transition: all 0.3s ease !important;     
+  text-transform: uppercase !important;    
+  text-shadow: 0 0 5px #00f0ff !important;
+  box-shadow: 0 0 10px #00f0ff, 0 0 20px #00f0ff, 0 0 30px #00f0ff !important; 
+}
+
+#startButton:hover {
+  background-color: #00f0ff !important;     
+  color: #111 !important;                   
+  box-shadow: 0 0 20px #00f0ff, 0 0 40px #00f0ff, 0 0 60px #00f0ff !important; 
+  transform: scale(1.05) !important;        
+}
+
+#startButton:active {
+  transform: scale(0.95) !important;        
+}
